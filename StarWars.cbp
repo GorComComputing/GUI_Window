@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="StarWars" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="bin/Release/StarWars" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libgdi32.a" />
+					<Add library="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libws2_32.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Program Files/CodeBlocks/MinGW/x86_64-w64-mingw32/lib/libgdi32.a" />
+		</Linker>
+		<Unit filename="BGL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="BGL.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="GUI.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="GUI.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="ProcArkanoid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProcFl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProcKoch.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProcLady.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProcLines.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="ProcPixels.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="boot/boot.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="display.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="drivers/common.h" />
+		<Unit filename="drivers/diskio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="drivers/fs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="drivers/fs.h" />
+		<Unit filename="drivers/sd.h" />
+		<Unit filename="drivers/test.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="game.h" />
+		<Unit filename="graphics.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="melody.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="melody.h">
+			<Option compile="1" />
+		</Unit>
+		<Unit filename="net.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="process/scheduler.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

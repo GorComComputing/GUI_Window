@@ -1,0 +1,171 @@
+# depslib dependency file v1.0
+1671846966 source:d:\it\c\projects\starwars\main.c
+	<stdio.h>
+	<stdlib.h>
+	<winsock2.h>
+	<windows.h>
+	"GUI.h"
+	"display.h"
+
+1672288544 source:d:\it\c\projects\starwars\bgl.c
+	<stdio.h>
+	<stdlib.h>
+	"BGL.h"
+	"display.h"
+
+1671279051 d:\it\c\projects\starwars\bgl.h
+	"display.h"
+
+1671315656 d:\it\c\projects\starwars\display.h
+
+1671279051 source:d:\it\c\projects\starwars\bgl.h
+	"display.h"
+
+1671315656 source:d:\it\c\projects\starwars\display.h
+
+1671219701 source:d:\it\c\projects\starwars\display.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"display.h"
+
+1670790087 source:d:\it\c\projects\starwars\net.c
+	<conio.h>
+	<winsock2.h>
+
+1671035604 d:\it\c\projects\starwars\game.h
+	<windows.h>
+
+1670853124 source:d:\it\c\projects\starwars\pitches.h
+
+1670853124 d:\it\c\projects\starwars\pitches.h
+
+1670951327 source:d:\it\c\projects\starwars\melody.h
+
+1670952385 source:d:\it\c\projects\starwars\melody.c
+	<windows.h>
+	"melody.h"
+
+1670951327 d:\it\c\projects\starwars\melody.h
+
+1671848290 source:d:\it\c\projects\starwars\game.c
+	"game.h"
+	"GUI.h"
+
+1672281958 source:d:\it\c\projects\starwars\graphics.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<windows.h>
+	"GUI.h"
+	"display.h"
+	"BGL.h"
+
+1671851503 source:d:\it\c\projects\starwars\gui.c
+	<stdio.h>
+	<stdlib.h>
+	"GUI.h"
+	"display.h"
+	"BGL.h"
+
+1671847796 source:d:\it\c\projects\starwars\gui.h
+
+1671848250 source:d:\it\c\projects\starwars\proclady.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"GUI.h"
+	"BGL.h"
+
+1671847796 d:\it\c\projects\starwars\gui.h
+
+1671848243 source:d:\it\c\projects\starwars\proclines.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"GUI.h"
+	"BGL.h"
+
+1671848224 source:d:\it\c\projects\starwars\procpixels.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"GUI.h"
+	"BGL.h"
+
+1671848232 source:d:\it\c\projects\starwars\prockoch.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"GUI.h"
+	"BGL.h"
+
+1671312762 source:d:\it\c\projects\starwars\procflag.c
+	"GUI.h"
+
+1671848205 source:d:\it\c\projects\starwars\procfl.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"GUI.h"
+	"BGL.h"
+
+1671849102 source:d:\it\c\projects\starwars\procarkanoid.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	"GUI.h"
+	"BGL.h"
+
+1671826224 source:d:\it\c\projects\starwars\boot\boot.c
+	<windows.h>
+	"../display.h"
+	"../BGL.h"
+
+1671980613 source:d:\it\c\projects\starwars\process\scheduler.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"..\GUI.h"
+	"..\display.h"
+	"..\BGL.h"
+
+1671837088 source:d:\it\c\projects\starwars\procdesktop.c
+	<stdio.h>
+	<stdlib.h>
+	"GUI.h"
+	"display.h"
+	"BGL.h"
+
+1671914616 source:d:\it\c\projects\starwars\drivers\sd.c
+	<Windows.h>
+
+1671923918 source:d:\it\c\projects\starwars\drivers\fs.c
+	"fs.h"
+	"sd.h"
+	<string.h>
+
+1671922262 d:\it\c\projects\starwars\drivers\fs.h
+	"common.h"
+
+1671922215 d:\it\c\projects\starwars\drivers\common.h
+
+1671922176 d:\it\c\projects\starwars\drivers\sd.h
+	"common.h"
+
+1671936209 source:d:\it\c\projects\starwars\drivers\test.c
+	"fs.h"
+	<stdlib.h>
+	<Windows.h>
+
+1672182793 source:d:\it\c\projects\starwars\drivers\diskio.c
+	"sd.h"
+	"fs.h"
+	<Windows.h>
+
